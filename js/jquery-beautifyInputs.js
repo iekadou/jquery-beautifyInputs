@@ -33,6 +33,9 @@
                         e.preventDefault();
                         $el.click();
                     }
+                }).off('click').on('click', function(e) {
+                    e.preventDefault();
+                    $el.click();
                 });
             }
         });

@@ -23,6 +23,12 @@ input[type="radio"] + .input-overlay {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 input[type="radio"] + .input-overlay .checked {
   display: none;
@@ -59,6 +65,12 @@ input[type="checkbox"] + .input-overlay {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 input[type="checkbox"] + .input-overlay .checked {
   display: none;
@@ -66,8 +78,10 @@ input[type="checkbox"] + .input-overlay .checked {
 input[type="checkbox"] + .input-overlay .checked:before {
   content: "\2714";
   position: absolute;
-  left: 2px;
-  top: -2px;
+  width: 16px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
 }
 input[type="checkbox"] + .input-overlay:focus .checked {
   outline: none;
