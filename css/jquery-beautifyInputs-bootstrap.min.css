@@ -1,0 +1,9 @@
+/*!
+ * jquery-beautifyInputs v0.0.1 by @iekadou
+ * Copyright (c) 2014 Jonas Braun
+ *
+ * http://www.noxic-action.de/page/programming/jquery-beautifyInputs
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */input[type="radio"]{position:relative;display:none}input[type="radio"]+.input-overlay{display:inline-block;width:18px;height:18px;position:relative;top:3px;color:#333;background-color:#fff;border:1px solid #ccc;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}input[type="radio"]+.input-overlay .checked{display:none;width:8px;height:8px;position:absolute;left:4px;top:4px;background-color:#333;border-radius:50%}input[type="radio"]+.input-overlay:focus .checked{outline:0}input[type="radio"]:focus{outline:0}input[type="radio"]:checked+.input-overlay .checked{display:block}input[type="checkbox"]{position:relative;display:none}input[type="checkbox"]+.input-overlay{display:inline-block;width:18px;height:18px;position:relative;top:3px;color:#333;background-color:#fff;border:1px solid #ccc;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}input[type="checkbox"]+.input-overlay .checked{display:none}input[type="checkbox"]+.input-overlay .checked:before{content:"\2714";position:absolute;left:2px;top:-2px}input[type="checkbox"]+.input-overlay:focus .checked{outline:0}input[type="checkbox"]:focus{outline:0}input[type="checkbox"]:checked+.input-overlay .checked{display:block}.radio .input-overlay,.checkbox .input-overlay{margin:0 0 0 -20px}
