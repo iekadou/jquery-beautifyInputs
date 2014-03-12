@@ -88,8 +88,16 @@
         position: absolute;
         width: 16px;
         text-align: center;
-        line-height: 18px;
+        line-height: 16px;
         font-size: 14px;
+      }
+
+      @ie: all\0;
+      @media @ie {
+        &:before {
+          content: "\25A0";
+          line-height: 12px;
+        }
       }
     }
 

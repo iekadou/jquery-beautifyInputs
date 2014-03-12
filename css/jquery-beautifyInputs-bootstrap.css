@@ -83,6 +83,12 @@ input[type="checkbox"] + .input-overlay .checked:before {
   line-height: 18px;
   font-size: 14px;
 }
+@media all\0 {
+  input[type="checkbox"] + .input-overlay .checked:before {
+    content: "\25A0";
+    line-height: 12px;
+  }
+}
 input[type="checkbox"] + .input-overlay:focus .checked {
   outline: none;
 }
@@ -94,5 +100,5 @@ input[type="checkbox"]:checked + .input-overlay .checked {
 }
 .radio .input-overlay,
 .checkbox .input-overlay {
-  margin: 0 0 0 -20px;
+  margin: 0 3px 0 -20px;
 }
