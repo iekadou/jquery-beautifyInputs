@@ -1,5 +1,5 @@
 /*!
- * jquery-beautifyInputs v0.0.1 by @iekadou
+ * jquery-beautifyInputs v0.0.2 by @iekadou
  * Copyright (c) 2014 Jonas Braun
  *
  * http://www.noxic-action.de/page/programming/jquery-beautifyInputs

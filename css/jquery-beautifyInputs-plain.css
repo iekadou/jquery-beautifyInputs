@@ -1,5 +1,5 @@
 /*!
- * jquery-beautifyInputs v0.0.1 by @iekadou
+ * jquery-beautifyInputs v0.0.2 by @iekadou
  * Copyright (c) 2014 Jonas Braun
  *
  * http://www.noxic-action.de/page/programming/jquery-beautifyInputs
@@ -80,8 +80,22 @@ input[type="checkbox"] + .input-overlay .checked:before {
   position: absolute;
   width: 16px;
   text-align: center;
-  line-height: 18px;
+  line-height: 16px;
   font-size: 14px;
+}
+@media all\0 {
+  input[type="checkbox"] + .input-overlay .checked {
+    display: none;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background-color: #333333;
+  }
+  input[type="checkbox"] + .input-overlay .checked:before {
+    content: "";
+  }
 }
 input[type="checkbox"] + .input-overlay:focus .checked {
   outline: none;
